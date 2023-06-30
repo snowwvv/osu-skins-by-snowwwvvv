@@ -1,0 +1,140 @@
+.container{
+   max-width: 6000px;
+}
+.fon{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdota-blog.ru%2Fwp-content%2Fuploads%2F2020%2F01%2Fosu-logo-game-images.jpg&f=1&nofb=1&ipt=44fd741a7310f4c570d3c75f8eefb7e478fe5d187f21c6e7c0016782d1eac2a5&ipo=images) ;
+}
+.text{
+    color: white;
+    font-size: 130px;
+    display: flex;
+    justify-content: center;
+   padding-top: 30px;
+}
+.nav_item{
+    height: 36px;
+    border: none;
+    background: 0 0;
+    box-shadow: inset 0 0 0 2px #343946;
+    border-radius: 18px;
+    color: white;
+    padding: 5px 20px;
+    
+}
+.skin1{
+    color: blue;
+    font-size: 20px;
+    padding-left: 230px;
+    
+    
+}
+.skin2{
+    color: yellowgreen;
+    padding-left: 390px;
+    font-size: 20px;
+   
+}
+.skin3{
+    color: blue;
+    font-size: 20px;
+    padding-left: 410px;
+}
+.imgRafis{
+    max-width: 30%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.skin_li{
+    display: inline-block;
+}
+.imgs1nqq{
+    max-width: 30%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.img-Miku-{
+    max-width: 30%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+/* 2 раздел */
+
+.imgshige{
+    max-width: 30%;
+  
+    padding-left: 40px;
+}
+.skin_li2{
+    display: inline-block;
+}
+.skin4{
+    color: blue;
+    font-size: 20px;
+    padding-left: 220px;
+   
+}
+
+/* скрывается для адаптации телефона*/
+.skin1_a{ display: none;}
+.skin2_a{ display: none;}
+.skin3_a{ display: none;}
+.skin4_a{ display: none;}
+ 
+/* адаптация */
+@media(max-width: 450px){
+    .text{
+        color: white;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+       padding-top: 30px;
+    }
+    .nav_item{
+        height: 20px;
+        border: none;
+        background: 0 0;
+        box-shadow: inset 0 0 0 2px #343946;
+        border-radius: 18px;
+        color: white;
+        display: inline-block;
+        
+    }
+    .skin1{
+        color: blue;
+        font-size: 10px;
+        display: none;
+         }
+         .skin2{display: none;}
+         .skin3{display: none;}
+         .skin4{display: none;}
+         .imgRafis{
+            max-width: 80%;   
+        }
+        .imgs1nqq{
+            max-width: 80%;    
+        }
+        .img-Miku-{
+            max-width: 80%; 
+        }
+        .imgshige{
+            max-width: 80%;  
+        }
+        .skin1_a{ display: inline;
+                  padding-left: 100px;
+                  padding-top: 10px;  
+        }
+        .skin2_a{ display: inline;
+            padding-left: 60px;
+            
+        }
+        .skin3_a{ display: inline;
+            padding-left: 150px;
+        }
+        .skin4_a{ display: inline;
+            padding-left: 100px;
+            
+        }
+         
+}
+
+
