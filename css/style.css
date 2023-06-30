@@ -121,17 +121,20 @@
         }
         .skin1_a{ display: inline;
                   padding-left: 100px;
-                  padding-top: 10px;  
+                  color: blue; 
         }
         .skin2_a{ display: inline;
             padding-left: 60px;
+            color: blue;
             
         }
         .skin3_a{ display: inline;
             padding-left: 150px;
+            color: blue;
         }
         .skin4_a{ display: inline;
             padding-left: 100px;
+            color: blue;
             
         }
          
