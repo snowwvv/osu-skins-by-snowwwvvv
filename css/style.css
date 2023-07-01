@@ -79,7 +79,47 @@
 .skin2_a{ display: none;}
 .skin3_a{ display: none;}
 .skin4_a{ display: none;}
- 
+ /* паскалки*/
+ .paskalka1{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    left: 617px;
+    bottom: 437px;
+}
+.paskalka2{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 600px;
+    bottom: 437px;
+}
+
+.fon_2{
+  
+    background-image: url(https://sun9-42.userapi.com/impg/Bck0GEP0X8Aw74dBiGCCwPsv3uDPiD2QH5Y-cQ/8I_uc81towU.jpg?size=356x512&quality=95&sign=44a90feae0159c26ee7d2cad04845d68&c_uniq_tag=x-5j4ws2cXhjZujMg8ku3KcdsiGg28yLDVeIVgW-Vj0&type=album);
+}
+#myVideo{
+    display: flex;
+    margin: 0 auto;
+}
+#myVideo1{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+}
+/* спонсор*/
+.sponsor{
+    font-size: 50px;
+    color: white;
+    padding-left: 850px ;
+}
+.sponsor1{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 500px;
+}
 /* адаптация */
 @media(max-width: 450px){
     .text{
@@ -137,7 +177,43 @@
             color: blue;
             
         }
-         
+        .sponsor{
+            font-size: 15px;
+        
+          padding-left:  180px;
+        }
+        .sponsor1{
+            font-size: 15px;
+          
+            left: 80px;
+          
+        }
+         /* паскалки*/
+
+.fon_2{
+
+  
+    background-image: url(https://sun9-42.userapi.com/impg/Bck0GEP0X8Aw74dBiGCCwPsv3uDPiD2QH5Y-cQ/8I_uc81towU.jpg?size=356x512&quality=95&sign=44a90feae0159c26ee7d2cad04845d68&c_uniq_tag=x-5j4ws2cXhjZujMg8ku3KcdsiGg28yLDVeIVgW-Vj0&type=album);
 }
 
+#myVideo1{
+   max-width: 80%;
+}
+#myVideo{
+    max-width: 80%;
+}  
+.paskalka2{
+    
+    left: 0px;
+    top: 500px;
+}
+.paskalka1{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    left: 200px;
+    bottom: 600px;
+}
+         
+}
 
