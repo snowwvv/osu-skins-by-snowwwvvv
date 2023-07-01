@@ -185,7 +185,7 @@
         .sponsor1{
             font-size: 15px;
           
-            left: 80px;
+            left: 60px;
           
         }
          /* паскалки*/
@@ -212,7 +212,7 @@
     color: red;
     position: absolute;
     left: 200px;
-    bottom: 600px;
+    bottom: 565px;
 }
          
 }
