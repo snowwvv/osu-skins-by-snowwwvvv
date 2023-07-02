@@ -252,7 +252,10 @@
 
 
 
-
+/* футер*/
+footer{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdota-blog.ru%2Fwp-content%2Fuploads%2F2020%2F01%2Fosu-logo-game-images.jpg&f=1&nofb=1&ipt=44fd741a7310f4c570d3c75f8eefb7e478fe5d187f21c6e7c0016782d1eac2a5&ipo=images) ;
+}
 /* адаптация */
 @media(max-width: 450px){
     .text{
