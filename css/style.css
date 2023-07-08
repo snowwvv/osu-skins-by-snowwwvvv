@@ -25,37 +25,64 @@
     color: blue;
     font-size: 20px;
     padding-left: 230px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    padding-top: 8px;
+    cursor: default;
+     
     
     
 }
 .skin2{
     color: yellowgreen;
-    padding-left: 390px;
+    padding-left: 795px;
     font-size: 20px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    padding-top: 8px;
+    cursor: default;
    
 }
 .skin3{
     color: blue;
     font-size: 20px;
-    padding-left: 410px;
+    padding-left: 1520px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    padding-top: 8px;
+    cursor: default;
 }
 .imgRafis{
     max-width: 30%;
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 40px;
+   
+    
+    background-color:  LightCoral;
 }
 .skin_li{
     display: inline-block;
 }
 .imgs1nqq{
     max-width: 30%;
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 40px;
+    background-color:  LightCoral;
 }
 .img-Miku-{
     max-width: 30%;
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 40px;
+    background-color:  LightCoral;
 }
 /* 2 раздел */
 
@@ -103,35 +130,7 @@
 .skin5_a{display: none;}
 .skin6_a{display: none;}
 
- /* паскалки*/
- .paskalka1{
-    font-size: 20px;
-    color: red;
-    position: absolute;
-    left: 617px;
-    bottom: 437px;
-}
-.paskalka2{
-    font-size: 50px;
-    color: black;
-    position: absolute;
-    left: 600px;
-    bottom: 437px;
-}
 
-.fon_2{
-  
-    background-image: url(https://sun9-42.userapi.com/impg/Bck0GEP0X8Aw74dBiGCCwPsv3uDPiD2QH5Y-cQ/8I_uc81towU.jpg?size=356x512&quality=95&sign=44a90feae0159c26ee7d2cad04845d68&c_uniq_tag=x-5j4ws2cXhjZujMg8ku3KcdsiGg28yLDVeIVgW-Vj0&type=album);
-}
-#myVideo{
-    display: flex;
-    margin: 0 auto;
-}
-#myVideo1{
-    display: flex;
-    margin: 0 auto;
-    width: 500px;
-}
 /* спонсор*/
 .sponsor{
     font-size: 50px;
@@ -275,13 +274,9 @@ footer{
         display: inline-block;
         
     }
-    .skin1{
-        color: blue;
-        font-size: 10px;
-        display: none;
-         }
-         .skin2{display: none;}
-         .skin3{display: none;}
+    
+         
+         
          .skin4{display: none;}
          .skin5{display: none;}
          .skin6{display: none;}
@@ -304,22 +299,21 @@ footer{
         .imgWWWskinv{
             max-width: 80%; 
         }
-        .skin1_a{ display: inline;
-                  padding-left: 100px;
-                  color: blue; 
+        .skin1{
+            font-size: 13px;
+            padding-left: 120px;
         }
-        .skin2_a{ display: inline;
-            padding-left: 60px;
-            color: blue;
-            
-        }
-        .skin3_a{ display: inline;
+        .skin2{ 
+            font-size: 13px;
+            padding-left: 85px;
+            padding-top: 200px;
+             }
+        .skin3{ 
+            font-size: 13px;
             padding-left: 150px;
-            color: blue;
+            padding-top: 390px ;
         }
-        .skin4_a{ display: inline;
-            padding-left: 100px;
-            color: blue;
+        .skin4_a{ 
             
         }
         .skin5_a{display: inline;
@@ -345,32 +339,7 @@ footer{
             left: 50px;
           
         }
-         /* паскалки*/
-
-.fon_2{
-
-  
-    background-image: url(https://sun9-42.userapi.com/impg/Bck0GEP0X8Aw74dBiGCCwPsv3uDPiD2QH5Y-cQ/8I_uc81towU.jpg?size=356x512&quality=95&sign=44a90feae0159c26ee7d2cad04845d68&c_uniq_tag=x-5j4ws2cXhjZujMg8ku3KcdsiGg28yLDVeIVgW-Vj0&type=album);
-}
-
-#myVideo1{
-   max-width: 80%;
-}
-#myVideo{
-    max-width: 80%;
-}  
-.paskalka2{
-    
-    left: 0px;
-    top: 500px;
-}
-.paskalka1{
-    font-size: 20px;
-    color: red;
-    position: absolute;
-    left: 200px;
-    bottom: 550px;
-}
+       
 /* поиск*/
 .search{
     position: relative;
