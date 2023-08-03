@@ -1,0 +1,174 @@
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    }
+
+
+
+.sponsor{
+font-size: 50px;
+display: flex;
+margin: 0 auto;
+margin-left: 800px;
+color: white;
+}
+.s1{
+    color: aqua;
+    font-size: 40px;
+    padding-left: 350px;
+    
+}
+.s2{
+    color: aqua;
+    font-size: 40px;
+    
+    
+}
+.i0{
+padding-left: 360px;
+}
+.i1{
+    padding-left:320px;
+}
+.i2{
+    padding-left: 315px;
+}
+.i3{
+    padding-left: 380px;
+}
+.i4{
+    padding-left: 333px;
+}
+.i5{
+    padding-left: 290px;
+}
+.i6{
+    padding-left: 325px;
+}
+.i7{
+    padding-left: 320px;
+}
+.i8{
+    padding-left: 235px;
+}
+.i9{
+    padding-left: 360px;
+}
+.s3{
+    color: aqua;
+    font-size: 40px;
+    padding-left: 350px;
+}
+.i0{
+    padding-left: 360px;
+    }
+    .q1{
+        padding-left:380px;
+    }
+    .q2{
+        padding-left: 300px;
+    }
+    .q3{
+        padding-left: 410px;
+    }
+    .q4{
+        padding-left: 380px;
+    }
+    .q5{
+        padding-left: 400px;
+    }
+    .q6{
+        padding-left: 298px;
+    }
+    .q7{
+        padding-left: 380px;
+    }
+    .q8{
+        padding-left: 410px;
+    }
+    .q9{
+        padding-left: 415px;
+    }
+
+@media(max-width: 450px){
+    
+    .sponsor{
+        font-size: 50px;
+        display: flex;
+        margin: 0 auto;
+        margin-left: -120px;
+        color: white;
+        }
+        .s1{
+        color: aqua;
+        font-size: 15px;
+        padding-left: 20px;
+        }
+    .s2{
+        color: aqua;
+        font-size: 15px;
+        padding-left:80px;
+        }
+    .s3{
+        color: aqua;
+        font-size: 15px;
+        padding-left: 55px;
+        }
+    
+            .q1{
+                padding-left:64px;
+            }
+            .q2{
+                padding-left: 33px;
+            }
+            .q3{
+                padding-left: 75px;
+            }
+           
+            .q4{
+                padding-left: 65px;
+            }
+            
+            .q6{
+                padding-left: 33px;
+            }
+            .q7{
+                padding-left: 64px;
+            }
+            .q8{
+                padding-left: 78px;
+            }
+            .q9{
+                padding-left: 80px;
+            }
+        
+            .i1{
+                padding-left:64px;
+            }
+            .i2{
+                padding-left: 63px;
+            }
+            .i3{
+                padding-left: 87px;
+            }
+            .i4{
+                padding-left: 67px;
+            }
+            .i5{
+                padding-left: 52px;
+            }
+            .i6{
+                padding-left: 66px;
+            }
+            .i7{
+                padding-left: 64px;
+            }
+            .i8{
+                padding-left: 32px;
+            }
+            .i9{
+                padding-left: 79px;
+            }
+    }
+
+

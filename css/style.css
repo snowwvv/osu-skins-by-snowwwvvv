@@ -1,9 +1,12 @@
+html {
+    margin: 0px;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614261196_35-p-fon-chernii-granzh-71.jpg) ;
+}
+
 .container{
    max-width: 6000px;
 }
-.fon{
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdota-blog.ru%2Fwp-content%2Fuploads%2F2020%2F01%2Fosu-logo-game-images.jpg&f=1&nofb=1&ipt=44fd741a7310f4c570d3c75f8eefb7e478fe5d187f21c6e7c0016782d1eac2a5&ipo=images) ;
-}
+
 .text{
     color: white;
     font-size: 130px;
@@ -88,8 +91,11 @@
 
 .imgshige{
     max-width: 30%;
-  
-    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 40px;
+   
+    
+    background-color:  LightCoral;
 }
 .skin_li2{
     display: inline-block;
@@ -97,52 +103,60 @@
 .skin4{
     color: blue;
     font-size: 20px;
-    padding-left: 220px;
+    padding-left: 230px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    padding-top: 8px;
+    cursor: default;
    
 }
 .skin5{
-    color: blue;
+    
+    color: yellowgreen;
+    padding-left: 795px;
     font-size: 20px;
-    padding-left: 420px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    padding-top: 8px;
+    cursor: default;
 }
 .imgVALKYRIE{
     max-width: 30%;
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 40px;
+    background-color:  LightCoral;
   
 }
 .skin6{
     color: blue;
     font-size: 20px;
-    padding-left: 420px;
+    padding-left: 1460px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    padding-top: 8px;
+    cursor: default;
 }
 .imgWWWskinv{
+    
     max-width: 30%;
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 40px;
+    background-color:  LightCoral;
 }
 
-/* скрывается для адаптации телефона*/
-.skin1_a{ display: none;}
-.skin2_a{ display: none;}
-.skin3_a{ display: none;}
-.skin4_a{ display: none;}
-.skin5_a{display: none;}
-.skin6_a{display: none;}
 
 
-/* спонсор*/
-.sponsor{
-    font-size: 50px;
-    color: white;
-    padding-left: 850px ;
-}
-.sponsor1{
-    font-size: 50px;
-    color: white;
-    position: absolute;
-    left: 500px;
-}
+
+
 /* поиск*/
 .search{
     position: relative;
@@ -251,12 +265,12 @@
 
 
 
-/* футер*/
-footer{
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdota-blog.ru%2Fwp-content%2Fuploads%2F2020%2F01%2Fosu-logo-game-images.jpg&f=1&nofb=1&ipt=44fd741a7310f4c570d3c75f8eefb7e478fe5d187f21c6e7c0016782d1eac2a5&ipo=images) ;
-}
+
+
 /* адаптация */
 @media(max-width: 450px){
+   
+    
     .text{
         color: white;
         font-size: 50px;
@@ -274,12 +288,27 @@ footer{
         display: inline-block;
         
     }
-    
+        .skin4{
+            font-size: 13px ;
+            padding-left: 120px;
+        }
+        .skin5{
+            font-size: 13px;
+            padding-left: 0px;
+            padding-top: 0px;
+            margin-left: 95px;
+            margin-top: 200px;
+            
+        }
+        .skin6{
+            font-size: 13px;
+            padding-left: 0px;
+            padding-top: 0px ;
+            margin-left: 130px;
+            margin-top: 390px ;
+            
+        }
          
-         
-         .skin4{display: none;}
-         .skin5{display: none;}
-         .skin6{display: none;}
          .imgRafis{
             max-width: 80%;   
         }
@@ -305,17 +334,19 @@ footer{
         }
         .skin2{ 
             font-size: 13px;
-            padding-left: 85px;
-            padding-top: 200px;
+            padding-left: 0px;
+            padding-top: 0px;
+            margin-left: 85px;
+            margin-top: 200px;
              }
         .skin3{ 
             font-size: 13px;
-            padding-left: 150px;
-            padding-top: 390px ;
+            padding-left: 0px;
+            padding-top: 0px ;
+            margin-left: 150px;
+            margin-top: 390px ;
         }
-        .skin4_a{ 
-            
-        }
+        
         .skin5_a{display: inline;
             padding-left: 100px;
             color: blue;
