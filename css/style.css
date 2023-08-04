@@ -1,0 +1,1060 @@
+/* главное*/
+html {
+    margin: 0px;
+    background-image: url(https://w-dog.ru/wallpapers/3/25/468030970779836/fon-dlya-stola-tekstura-chernyj.jpg) ;
+}
+body{
+    font-family:'Comic Sans MS', cursive, sans-serif ;
+}
+/* шапка */
+.container{ max-width: 6000px;}
+
+.text{
+    color: #e42424;
+    font-size: 130px;
+    display: flex;
+    justify-content: center;
+   padding-top: 30px;
+}
+.nav_item{
+    height: 36px;
+    border: none;
+    background: 0 0;
+    box-shadow: inset 0 0 0 2px #343946;
+    border-radius: 18px;
+    color: white;
+    padding: 5px 20px;
+}
+/* изображения*/
+.imgRafis{
+    max-width: 25%;
+    padding: 20px;
+    margin-left: 110px;
+   background-color: grey ;
+}
+.imgs1nqq{
+    max-width: 25%;
+    padding: 20px;
+    margin-left: 50px;
+    background-color:  grey ;
+}
+.img-Miku-{
+    max-width: 25%;
+    padding: 20px;
+    margin-left: 50px;
+    background-color:  grey;
+}
+.imgshige{
+    max-width: 25%;
+    padding: 20px;
+    margin-left: 110px;
+    background-color:  grey;
+}
+.imgVALKYRIE{
+    max-width: 25%;
+    padding: 20px;
+    margin-left:50px;
+    background-color:  grey;
+}
+.imgWWWskinv{
+    max-width: 25%;
+    margin-left: 50px;
+    background-color: grey ;
+    padding: 20px;
+}
+/*текст*/
+.skin1{
+    color: #111111;
+    font-size: 20px;
+    padding-left: 230px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    cursor: default;
+}
+.skin2{
+    color: #111111;
+    padding-left: 795px;
+    font-size: 20px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    cursor: default;
+}
+.skin3{
+    color: #111111;
+    font-size: 20px;
+    padding-left: 1520px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    cursor: default;
+}
+
+.skin_li{display: inline-block;}
+.skin_li2{display: inline-block;}
+
+.skin4{
+    color: #111111;
+    font-size: 20px;
+    padding-left: 230px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    cursor: default;
+}
+.skin5{
+    
+    color: #111111;
+    padding-left: 795px;
+    font-size: 20px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    cursor: default;
+}
+
+.skin6{
+    color: #111111;
+    font-size: 20px;
+    padding-left: 1460px;
+    border-color:none;
+    border-width: 0px;
+    border-style: solid;
+    position: absolute;
+    float: left;
+    cursor: default;
+}
+
+/* адаптация */
+@media(max-width: 450px){
+   
+    /* шапка */
+    .text{
+        color: #e42424;
+        font-size: 55px;
+        display: block;
+        justify-content: center;
+       padding-top: 0px;
+       padding-left: 70px;
+       
+    }
+    .nav_item{
+        height: 36px;
+        border: none;
+        background: 0 0;
+        box-shadow: inset 0 0 0 2px #343946;
+        border-radius: 18px;
+        color: white;
+        padding: 5px 20px;
+    }
+    /* изображения*/
+    .imgRafis{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+       background-color: grey ;
+    }
+    .imgs1nqq{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+        background-color:  grey ;
+    }
+    .img-Miku-{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+        background-color:  grey;
+    }
+    .imgshige{
+        
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+       background-color: grey ;
+    }
+    .imgVALKYRIE{
+        max-width: 80%;
+        padding: 20px;
+        margin-left:20px;
+        background-color:  grey;
+    }
+    .imgWWWskinv{
+        max-width: 80%;
+        margin-left: 20px;
+        background-color: grey ;
+        padding: 20px;
+    }
+ 
+    /*текст*/
+    .skin1{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 130px;
+        padding-top: 3px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin2{
+        color: #111111;
+        padding-left:85px;
+        margin-top: 243px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin3{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 180px;
+        margin-top: 486px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin_li{display: inline-block;}
+    .skin_li2{display: inline-block;}
+    
+    .skin4{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 150px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin5{
+        
+        color: #111111;
+        padding-left:150px;
+        margin-top: 243px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin6{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 120px;
+        margin-top: 484px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 420px){
+   
+    /* шапка */
+    .text{
+        color: #e42424;
+        font-size: 55px;
+        display: block;
+        justify-content: center;
+       padding-top: 0px;
+       padding-left: 50px;
+       
+    }
+    .nav_item{
+        height: 36px;
+        border: none;
+        background: 0 0;
+        box-shadow: inset 0 0 0 2px #343946;
+        border-radius: 18px;
+        color: white;
+        padding: 5px 20px;
+    }
+    /* изображения*/
+    .imgRafis{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+       background-color: grey ;
+    }
+    .imgs1nqq{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+        background-color:  grey ;
+    }
+    .img-Miku-{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+        background-color:  grey;
+    }
+    .imgshige{
+        
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+       background-color: grey ;
+    }
+    .imgVALKYRIE{
+        max-width: 80%;
+        padding: 20px;
+        margin-left:20px;
+        background-color:  grey;
+    }
+    .imgWWWskinv{
+        max-width: 80%;
+        margin-left: 20px;
+        background-color: grey ;
+        padding: 20px;
+    }
+ 
+    /*текст*/
+    .skin1{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 120px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin2{
+        color: #111111;
+        padding-left:80px;
+        margin-top: 231px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin3{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 160px;
+        margin-top: 459px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin_li{display: inline-block;}
+    .skin_li2{display: inline-block;}
+    
+    .skin4{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 150px;
+        margin-top: 3px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin5{
+        
+        color: #111111;
+        padding-left:130px;
+        margin-top: 230px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin6{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 110px;
+        margin-top: 459px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+}
+
+
+
+@media(max-width: 395px){
+   
+    /* шапка */
+    .text{
+        color: #e42424;
+        font-size: 55px;
+        display: block;
+        justify-content: center;
+       padding-top: 0px;
+       padding-left: 30px;
+       
+    }
+    .nav_item{
+        height: 36px;
+        border: none;
+        background: 0 0;
+        box-shadow: inset 0 0 0 2px #343946;
+        border-radius: 18px;
+        color: white;
+        padding: 5px 20px;
+    }
+   
+ 
+    /*текст*/
+    .skin1{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 120px;
+        padding-top: 3px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin2{
+        color: #111111;
+        padding-left:80px;
+        margin-top: 220px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin3{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 160px;
+        margin-top: 435px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin_li{display: inline-block;}
+    .skin_li2{display: inline-block;}
+    
+    .skin4{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 150px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin5{
+        
+        color: #111111;
+        padding-left:130px;
+        margin-top: 220px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin6{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 100px;
+        margin-top: 435px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+}
+
+
+@media(max-width: 375px){
+   
+    /* шапка */
+    .text{
+        color: #e42424;
+        font-size: 55px;
+        display: block;
+        justify-content: center;
+       padding-top: 0px;
+       padding-left: 30px;
+       
+    }
+    .nav_item{
+        height: 36px;
+        border: none;
+        background: 0 0;
+        box-shadow: inset 0 0 0 2px #343946;
+        border-radius: 18px;
+        color: white;
+        padding: 5px 20px;
+    }
+   
+ 
+    /*текст*/
+    .skin1{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 120px;
+        padding-top: 3px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin2{
+        color: #111111;
+        padding-left:60px;
+        margin-top: 210px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin3{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 145px;
+        margin-top: 418px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin_li{display: inline-block;}
+    .skin_li2{display: inline-block;}
+    
+    .skin4{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 150px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin5{
+        
+        color: #111111;
+        padding-left:110px;
+        margin-top: 210px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin6{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 100px;
+        margin-top: 417px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+}
+
+@media(max-width: 360px){
+   
+    /* шапка */
+    .text{
+        color: #e42424;
+        font-size: 55px;
+        display: block;
+        justify-content: center;
+       padding-top: 0px;
+       padding-left: 30px;
+       
+    }
+    .nav_item{
+        height: 36px;
+        border: none;
+        background: 0 0;
+        box-shadow: inset 0 0 0 2px #343946;
+        border-radius: 18px;
+        color: white;
+        padding: 5px 20px;
+    }
+    /* изображения*/
+    .imgRafis{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+       background-color: grey ;
+    }
+    .imgs1nqq{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+        background-color:  grey ;
+    }
+    .img-Miku-{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+        background-color:  grey;
+    }
+    .imgshige{
+        
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 20px ;
+       background-color: grey ;
+    }
+    .imgVALKYRIE{
+        max-width: 80%;
+        padding: 20px;
+        margin-left:20px;
+        background-color:  grey;
+    }
+    .imgWWWskinv{
+        max-width: 80%;
+        margin-left: 20px;
+        background-color: grey ;
+        padding: 20px;
+    }
+ 
+    /*текст*/
+    .skin1{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 120px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin2{
+        color: #111111;
+        padding-left:50px;
+        margin-top: 204px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin3{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 140px;
+        margin-top: 404px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin_li{display: inline-block;}
+    .skin_li2{display: inline-block;}
+    
+    .skin4{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 120px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin5{
+        
+        color: #111111;
+        padding-left:110px;
+        margin-top: 204px;
+        font-size: 15px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin6{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 100px;
+        margin-top: 404px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+}
+
+@media(max-width: 280px){
+    /* шапка */
+    .text{
+        color: #e42424;
+        font-size: 35px;
+        display: block;
+        justify-content: center;
+       padding-top: 0px;
+       padding-left: 30px;
+       
+    }
+    .nav_item{
+        height: 36px;
+        border: none;
+        background: 0 0;
+        box-shadow: inset 0 0 0 2px #343946;
+        border-radius: 18px;
+        color: white;
+        padding: 5px 20px;
+    }
+    /* изображения*/
+    .imgRafis{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 3px ;
+       background-color: grey ;
+    }
+    .imgs1nqq{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 3px ;
+        background-color:  grey ;
+    }
+    .img-Miku-{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 3px ;
+        background-color:  grey;
+    }
+    .imgshige{
+        
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 3px ;
+       background-color: grey ;
+    }
+    .imgVALKYRIE{
+        max-width: 80%;
+        padding: 20px;
+        margin-left:3px;
+        background-color:  grey;
+    }
+    .imgWWWskinv{
+        max-width: 80%;
+        margin-left: 3px;
+        background-color: grey ;
+        padding: 20px;
+    }
+ 
+    /*текст*/
+    .skin1{
+        color: #111111;
+        font-size: 13px;
+        padding-left: 55px;
+        padding-top: 6px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin2{
+        color: #111111;
+        padding-left:20px;
+        margin-top: 170px;
+        font-size: 13px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin3{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 90px;
+        margin-top: 333px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin_li{display: inline-block;}
+    .skin_li2{display: inline-block;}
+    
+    .skin4{
+        color: #111111;
+        font-size: 13px;
+        padding-left: 80px;
+        padding-top: 6px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin5{
+        
+        color: #111111;
+        padding-left:60px;
+        margin-top: 170px;
+        font-size: 13px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin6{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 30px;
+        margin-top: 333px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+   
+}
+
+@media(max-width: 250px){
+   
+    /* шапка */
+    .text{
+        color: #e42424;
+        font-size: 35px;
+        display: block;
+        justify-content: center;
+       padding-top: 0px;
+       padding-left: 30px;
+       
+    }
+    .nav_item{
+        height: 36px;
+        border: none;
+        background: 0 0;
+        box-shadow: inset 0 0 0 2px #343946;
+        border-radius: 18px;
+        color: white;
+        padding: 5px 20px;
+    }
+    /* изображения*/
+    .imgRafis{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 3px ;
+       background-color: grey ;
+    }
+    .imgs1nqq{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 3px ;
+        background-color:  grey ;
+    }
+    .img-Miku-{
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 3px ;
+        background-color:  grey;
+    }
+    .imgshige{
+        
+        max-width: 80%;
+        padding: 20px;
+        margin-left: 3px ;
+       background-color: grey ;
+    }
+    .imgVALKYRIE{
+        max-width: 80%;
+        padding: 20px;
+        margin-left:3px;
+        background-color:  grey;
+    }
+    .imgWWWskinv{
+        max-width: 80%;
+        margin-left: 3px;
+        background-color: grey ;
+        padding: 20px;
+    }
+ 
+    /*текст*/
+    .skin1{
+        color: #111111;
+        font-size: 13px;
+        padding-left: 55px;
+        padding-top: 6px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin2{
+        color: #111111;
+        padding-left:10px;
+        margin-top: 155px;
+        font-size: 13px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin3{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 80px;
+        margin-top: 305px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin_li{display: inline-block;}
+    .skin_li2{display: inline-block;}
+    
+    .skin4{
+        color: #111111;
+        font-size: 13px;
+        padding-left: 80px;
+        padding-top: 6px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    .skin5{
+        
+        color: #111111;
+        padding-left:60px;
+        margin-top: 155px;
+        font-size: 13px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+    
+    .skin6{
+        color: #111111;
+        font-size: 15px;
+        padding-left: 30px;
+        margin-top: 305px;
+        border-color:none;
+        border-width: 0px;
+        border-style: solid;
+        position: absolute;
+        float: left;
+        cursor: default;
+    }
+}
+
+
+
+
